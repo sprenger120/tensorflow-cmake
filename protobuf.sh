@@ -53,7 +53,8 @@ find_protobuf () {
     # defs here
     ANY="[^\)]*"
     ANY_NO_QUOTES="[^\)\\\"]*"
-    HTTP_HEADER="native.http_archive\(\s"
+    # HTTP_HEADER="native.http_archive\(\s"
+	HTTP_HEADER="tf_http_archive\(\s"
     NAME_START="name\s*=\s*\\\""
     QUOTE_START="\s*=\s*\\\""
     QUOTE_END="\\\"\s*,\s*"
